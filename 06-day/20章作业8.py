@@ -1,0 +1,12 @@
+print('$'*30)
+neme = input("请输入姓名")
+gender = input("请输入性别")
+phone = input("请输入电话号码")
+addr = input("请输入家庭住址")
+email = input("请输入邮箱号码")
+school = input("请输入学校")
+provinces = input("请输入省份")
+ID_number = input("请输入身份证号")
+#print("姓名%s\n"%name,"性别%s\n"%gender,"电话%s\n"%phone,"家庭住址%\n"%addr,"邮箱%s\n"%email,"学校%s\n"%school,"省份%s\n"%provinces,"身份证号%s\n"%ID_number)
+print('$'*30)
+
