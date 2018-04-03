@@ -1,4 +1,4 @@
-stature = float(input("请输入身高"))
+fstature = float(input("请输入身高"))
 money = float(input("请输入身价"))
 nice = float(input("请输入颜值分"))
 if stature > 180 and money > 1000 and nice > 99:
