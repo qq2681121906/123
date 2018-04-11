@@ -8,6 +8,7 @@ cards = []#定义空列表
 while True:
 	fun_number = int(input("请选择功能"))
 	if fun_number ==1:
+		print("新增")
 		flag  = 0 #默认值 0代表不在里面
 		card={}#定义空字典
 		name = input("请输入名字")
@@ -33,21 +34,10 @@ while True:
 		card["address"] = address
 		#放到列表中
 		cards.append(card)
-		print("新增成功\n")
+		print("新增成功")
 	elif fun_number == 2:
-		name = input("请输入要查的姓名")
-                flag = 0
-                for temp in cards:
-                    if name == temp["name"]:
-                    falg =  1 #代表我找到了
-                        print(temp["name"],temp["age"])
-                        break
-
-                if flag == 0:
-	            print("查无此人")
+		print("查找")
 	elif fun_number == 3:
-
-        elif fun_number == 3:
 		print("修改")
 	elif fun_number == 4:
 		print("删除")
